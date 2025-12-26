@@ -16,7 +16,7 @@ import com.iasolutions.demo.Service.commentsService;
 
 @RestController
 @RequestMapping("/sendcomments")
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "https://iasolutions-deploy-production.up.railway.app/")
 public class commentsController {
 
     @Autowired

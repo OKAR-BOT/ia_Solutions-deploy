@@ -10,7 +10,7 @@ public class vistaController {
     public String homePage() {
         return "inicio";
     }
-
+    
     @GetMapping("/")
 public String index() {
     return "redirect:/home";
