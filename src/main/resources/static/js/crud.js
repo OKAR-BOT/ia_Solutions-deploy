@@ -11,7 +11,7 @@ form.addEventListener('submit', async (e) => {
         comentario: document.getElementById('comentario').value
     };
 
-    const res = await fetch('http://localhost:8080/sendcomments', {
+    const res = await fetch('https://iasolutions-deploy-production.up.railway.app/sendcomments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
