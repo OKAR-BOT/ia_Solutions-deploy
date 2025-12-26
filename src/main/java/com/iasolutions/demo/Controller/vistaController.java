@@ -11,6 +11,12 @@ public class vistaController {
         return "inicio";
     }
 
+    @GetMapping("/")
+public String index() {
+    return "redirect:/home";
+}
+
+
     @GetMapping("/sesion")
     public String loginPage() {
         return "login";
